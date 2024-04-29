@@ -8,9 +8,9 @@ interface Props {
 
 const MyButton = ({ children, color = "primary", handleClicked }: Props) => {
   return (
-    <button className={"btn btn-" + color} onClick={handleClicked}>
+    <div role="button" onClick={handleClicked}>
       {children}
-    </button>
+    </div>
   );
 };
 
