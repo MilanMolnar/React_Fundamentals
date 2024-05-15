@@ -1,0 +1,13 @@
+GET http://localhost:8000/reminders
+
+
+
+POST http://localhost:8000/reminders
+Content-Type: application/json
+
+{"title": "My reminder object"}
+
+
+
+
+
